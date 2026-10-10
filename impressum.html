@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index,follow">
+<title>Impressum – Veronika Studios</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0e0d0c;--ivory:#f3ede4;--muted:#a79f94;--gold:#c9a96a;--line:rgba(201,169,106,.22);--serif:'Cormorant Garamond',Georgia,serif;--sans:'Inter',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--sans);font-weight:300;background:var(--bg);color:var(--ivory);line-height:1.8;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:760px;margin:0 auto;padding:0 28px}
+nav{border-bottom:1px solid var(--line)}
+nav .wrap{max-width:1120px;display:flex;justify-content:space-between;align-items:center;height:76px}
+.logo{font-family:var(--serif);font-size:21px;letter-spacing:.22em;text-transform:uppercase}
+.logo span{color:var(--gold)}
+.back{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);transition:.25s}
+.back:hover{color:var(--gold)}
+main{padding:90px 0 110px}
+.eyebrow{font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:22px}
+h1{font-family:var(--serif);font-weight:400;font-size:clamp(42px,7vw,72px);line-height:1.05;margin-bottom:48px}
+h2{font-family:var(--serif);font-weight:400;font-size:26px;margin:40px 0 8px;color:var(--gold)}
+p{color:var(--muted);font-size:16px}
+p strong{color:var(--ivory);font-weight:400}
+footer{padding:44px 0;text-align:center;color:var(--muted);font-size:11px;letter-spacing:.2em;text-transform:uppercase;border-top:1px solid var(--line)}
+@media(max-width:760px){.logo{font-size:15px;letter-spacing:.14em}}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a href="index.html" class="logo">Veronika Studios<span>.</span></a>
+  <a href="index.html" class="back">← Zurück</a>
+</div></nav>
+
+<main><div class="wrap">
+  <span class="eyebrow">Rechtliches</span>
+  <h1>Impressum</h1>
+
+  <h2>Angaben gemäß ECG und Mediengesetz</h2>
+  <p><strong>Veronika Studios</strong><br>
+  Verona Djuric und Daniela Djuric<br>
+  Lammaschgasse 60<br>
+  1210 Wien<br>
+  Österreich</p>
+
+  <h2>Kontakt</h2>
+  <p>E-Mail: <a href="mailto:verona07@outlook.de" style="color:var(--gold)">verona07@outlook.de</a></p>
+
+  <h2>Unternehmensgegenstand</h2>
+  <p>Webdesign, SEO und Online-Marketing (Ads-Betreuung und Anbindung an die Website)</p>
+
+  <h2>Umsatzsteuer-Identifikationsnummer</h2>
+  <p>ATU80773637</p>
+
+  <!--
+    Wenn zutreffend, hier ergänzen (Pflichtangaben je nach Rechtsform und Gewerbe):
+    - Rechtsform, Firmenbuchnummer und Firmenbuchgericht (falls im Firmenbuch eingetragen)
+    - Mitgliedschaft bei der Wirtschaftskammer, Berufsgruppe/Fachgruppe, Aufsichtsbehörde (Bezirkshauptmannschaft/Magistrat)
+    - Gewerbeordnung (www.ris.bka.gv.at)
+  -->
+
+  <h2>Inhaltlich verantwortlich</h2>
+  <p>Verona Djuric und Daniela Djuric, Anschrift wie oben.</p>
+</div></main>
+
+<footer>© <span id="y"></span> Veronika Studios · Österreich</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
